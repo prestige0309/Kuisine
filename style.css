@@ -1,0 +1,260 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;    
+}
+.navbar {
+    display: grid;
+    /* grid-template-columns: 1fr 2fr 1fr; */
+    margin-right: 25px;
+    margin-left: 25px;
+    background-color: white;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+   position: fixed;
+   top: 0;
+   left: 0;
+   z-index: 1500;
+   box-shadow: 0 2px 5px ;
+    padding: 10px;
+    margin-bottom: 70px;
+    
+}
+.navbarlogo {
+    color: black;
+    font-weight: bolder;
+    font-size: 30px;
+}
+.navbarcentre {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    text-decoration-color: black;
+    font-weight: bold;
+    margin-top: 7px;
+}
+a {
+    text-decoration: none;
+    color: black;
+    background-color: ;
+}
+.navbarbutton {
+    text-align: left;
+    /* background-color: orangered; */
+    color: white;
+    text-align: right;
+    font-weight: bold;
+    margin-top: 7px;
+    margin-right: 20px;
+}
+/* .navbarbutton:hover {
+    background-color: white;
+    border-style: solid;
+    border-radius: 2px;
+    color: orangered;
+} */
+.navbarbuttonn {
+   
+}
+/* .n {
+    height: 400px;
+    background-image: url(wooden.jpg);
+    margin-top: 20px;
+    position: relative;
+    background-repeat: ;
+    position: relative;
+} */
+.chef {
+    position: absolute;
+    width: 20%;
+    right: 0;
+    bottom: -20px;
+}
+.k {
+    height: 400px;
+    width: 100%;
+    margin-top: 20px;
+    position: relative;
+}
+.n {
+    height: 400px;
+    position: relative;
+    margin-top: 50px;
+}
+.d {
+    width: 20%;
+    position: absolute;
+    right: 280px;
+    bottom: 0;
+}
+.g {
+    position: absolute;
+    bottom: 150px;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    margin-left: 25px;
+}
+.content {
+    height: 30px;
+    /* background-color: orangered; */
+    margin-top: 50px;
+    /* margin-right: 25px;
+    margin-left: 25px; */
+
+}
+.x {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 300;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.blog {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    height: 500px;
+    margin-top: 20px;
+    /* justify-content: space-between; */
+    row-gap: 30px;  
+    /* background-color: orangered; */
+    height: 100%;
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+.blog1 {
+    background-color: white;
+    margin-right: 10px;
+    position: relative;
+    box-shadow: 0 2px 10px;
+
+}
+.beans {
+    height: 300px;
+    width: 100%;
+}
+.Trending {
+    position: absolute;
+    background-color: orangered;
+    color: white;
+    padding: 5PX;
+    font-weight: bold;
+    top: 0;
+}
+.blog2 {
+    background-color: orangered;
+    margin-right: 10px;
+}
+.blog3 {
+    background-color: orangered;
+}
+.circle {
+    height: 10px;
+    width: 10px;
+    background-color: black;
+    border-radius: 5px;
+    margin-left: 15px;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+.circlemain {
+    display: flex;
+}
+.circle1 {
+    font-size: 15px;
+    font-weight: 400;
+}
+h4 {
+    margin-top: 30px;
+    margin-left: 15px;
+}
+p {
+    font-size: 15px;
+    margin-left: 15px;
+}
+.dp {
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    border-radius: 20px;
+    margin-left: 15px;
+    margin-right: 10px;
+
+
+}
+.dp1 {
+    display: flex;
+    margin-bottom: 10px;
+}
+.name {
+    font-weight: bold;
+}
+.date {
+    font-size: small;
+}
+.robot {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+.blog2 {
+    background-color: white;
+    margin-right: 10px;
+    position: relative;
+    box-shadow: 0 2px 10px;
+
+}
+.blog3 {
+    background-color: white;
+    margin-right: 10px;
+    position: relative;
+    box-shadow: 0 2px 10px;
+
+}
+.blo {
+    display: grid;
+}
+.next {
+    border-width: 2px;
+    border-style: solid;
+    padding: 10px;
+    border-color: orangered;
+    
+}
+.nex {
+    justify-content: center;
+    /* background-color: orange;   */
+    margin-top: 40px;
+    margin-left: 25%;  
+    margin-right: 25%;
+    text-align: center;
+}
+.footer {
+    background-color: orangered;
+    height: 250px;
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding-top: 40px;
+}
+.contact {
+    color: white;
+    justify-content: left;
+    text-align: center;
+}
+.reservation {
+    background-color: orangered;
+    /* height: 40px; */
+    border-style: dashed;
+    border-bottom: 0;
+    border-right: 0;
+    border-left: 0;
+    border-color: white;
+    display: flex;
+    justify-content: space-between;
+    font: bold;
+    color: white;
+    padding: 10px 20px 10px 20px;
+    border-width: 2px;
+}
